@@ -25,3 +25,8 @@ This project turns your MPU9250 into an **air mouse** or **gesture-based game co
 ---
 
 ## 🔌 Wiring (I²C)
+MPU9250 -> Arduino/ESP
+VCC -> 3.3V
+GND -> GND
+SCL -> D22 (ESP32) / A5 (Arduino Uno)
+SDA -> D21 (ESP32) / A4 (Arduino Uno)
